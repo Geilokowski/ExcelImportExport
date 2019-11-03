@@ -46,10 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExcelHelper\SyncHelper.cs" />
-    <Compile Include="ExcelHelper\TObjBestandsListe.cs" />
-    <Compile Include="ExcelHelper\TObjKlassen.cs" />
-    <Compile Include="ExcelHelper\TObjZensosListe.cs" />
-    <Compile Include="ExcelImport.cs" />
+    <Compile Include="Objects\TObjBestandsListe.cs" />
+    <Compile Include="Objects\TObjExcelExport.cs" />
+    <Compile Include="Objects\TObjKlassen.cs" />
+    <Compile Include="Objects\TObjZensosListe.cs" />
+    <Compile Include="ExcelHelper\ExcelImport.cs" />
     <Compile Include="PersonHelper\TPerson.cs" />
     <Compile Include="PersonHelper\TSchueler.cs" />
     <Compile Include="Program.cs" />
